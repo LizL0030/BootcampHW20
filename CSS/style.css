@@ -1,5 +1,5 @@
 body {
-    margin: 0% 0%;
+    margin: 0 0;
     font-family: 'Montserrat';
   }
   .mainHeader {
@@ -21,8 +21,8 @@ body {
     padding: 16px;
   }
   .mainNavigation {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
     font-size: 24px;
     padding: 0 16px;
   }
@@ -33,46 +33,46 @@ body {
   }
   .mainNavItem2 a {
     padding: 0 16px;
-      color:#D64168;
+      color:#FFFFFF;
       text-decoration: none;
   }
   .mainNavItem3 a {
     padding: 0 16px;
-      color: white;
+      color:#D64168;
       text-decoration: none;
   }
   .mainNavItem1 a:hover {
       color:#103A72;
   }
-  .mainNavItem3 a:hover {
+  .mainNavItem2 a:hover {
       color:#103A72;
   }
   h1 {
     text-align: left;
-    color: #103A72;
-    font-size: 36px;
+    color:#D64168;
+    font-size: 48px;
     font-weight: 700;
-    padding: 3rem;
-  }
-  h2 {
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #103A72;
   }
   h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #103A72;
+    color:#D64168;
   }
-  p {
-    text-align: left;
-    line-height: 24px;
+  .flexContainer {
+    display: flex;
   }
+  .largeLogo {
+    padding: 5%;
+    align-items: left;
+  }
+  .contactMetext {
+    margin-top: 100px;
+    padding: 5%;
+    margin-left: 125px;
+  }
+
   .footernavigation {
     display: flex;
     background-color: #ADBB0D;
-    height: 150px;
+    height: 124px;
     margin-top: 36px;
     align-items: center;
     justify-content: space-between;
