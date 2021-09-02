@@ -90,6 +90,7 @@ body {
   @media only screen and (max-width: 1200px) {
     .flexContainer {
       flex-direction: column;
+      align-items: center;
     }
   }
   @media only screen and (max-width: 1080px) {
